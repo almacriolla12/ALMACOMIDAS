@@ -1,0 +1,180 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf8f2;
+  color: #3b2f2f;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Portada */
+.hero {
+  background: linear-gradient(135deg, #7c2d12, #9a3412);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 550px;
+  margin: 0 auto 25px;
+  color: #ffedd5;
+}
+
+/* Botón principal de WhatsApp */
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+  transform: translateY(-2px);
+}
+
+/* Sección del menú */
+.menu-section {
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 1.9rem;
+  color: #7c2d12;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #6b5b5b;
+  margin-bottom: 30px;
+}
+
+.grid-platos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #f3e5d8;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 2px 8px rgba(59, 47, 47, 0.05);
+}
+
+.card h3 {
+  color: #9a3412;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #574949;
+  margin-bottom: 14px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ffedd5;
+  color: #9a3412;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* Caja de información */
+.info-box {
+  background-color: #ffffff;
+  border-left: 5px solid #9a3412;
+  border-radius: 10px;
+  padding: 28px;
+  margin: 20px 0 50px;
+  box-shadow: 0 2px 8px rgba(59, 47, 47, 0.05);
+}
+
+.info-box h2 {
+  color: #7c2d12;
+  margin-bottom: 14px;
+}
+
+.pasos {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.pasos li {
+  margin-bottom: 6px;
+}
+
+.horarios {
+  color: #574949;
+  font-size: 0.95rem;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 25px 20px;
+  background-color: #3b2f2f;
+  color: #e7dcd3;
+  font-size: 0.9rem;
+}
+
+/* Botón flotante inferior derecho */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  z-index: 100;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
